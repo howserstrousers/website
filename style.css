@@ -98,6 +98,7 @@
 	}
 
 	.info {
+		padding-bottom: 2%;
 		border-bottom: 1px solid #ccc;
 	}
 
@@ -108,15 +109,17 @@
 		}
 
 		nav {
-			max-width: 20%;
-			position:fixed;
+			width:15%;
+			position: fixed;
+		}
+
+		.navigation {
 		}
 
 		.nav-button {
 			z-index: 100;
-			float:left;
 			width: 12px;
-			margin: 2%;
+			margin-right: 15%;
 			padding: .2%;
 			border: 0;
 			font-size: 1.1em;
@@ -126,9 +129,29 @@
 			color: #ccc;
 		}
 
-		p {
-			margin-left: 20%;
+		.nav-button:hover{
+			background-color: black;
+			color: white;
+		}
+
+		.name {
+			margin-left: 1%;
 			float:left;
+		}
+
+		.work {
+			float:left;
+		}
+
+		.contact {
+			float: left;
+		}
+
+		.container {
+			float:left;
+			margin: 0;
+			margin-left: 15%;
+			margin-right: 2%;
 		}
 
 	}
