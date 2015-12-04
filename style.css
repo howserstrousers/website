@@ -45,6 +45,7 @@
 		content: '';
 		content: none;
 	}
+
 	table {
 		border-collapse: collapse;
 		border-spacing: 0;
@@ -53,7 +54,6 @@
 	.clearfix {
 		overflow: auto;
 	}
-
 
 	html {
 		font-family: 'Roboto Mono', sans-serif;
@@ -72,88 +72,184 @@
 			font-size: 2rem;
 		}
 
+	/*links*/
+
+		a:visited{
+			color:black;
+			text-decoration: none
+		}
+
+		a:link {
+			color:black;
+			text-decoration: none
+		}
+
 	/*nav mobile*/
 
-	nav {
-		margin: 0 auto;
-		}
-
-	ul {
-		margin: 0;
-		padding: 0;
-	}
-
-	.nav-button {
-			line-height: 120%;
-			z-index: 100;
-			margin-bottom:2%;
-			font-size: 1.5rem;
-			font-weight: 700;
-		}
-
-	.name { 
-		margin-bottom: 2%;
-		padding-bottom: 2%;
-		border-bottom: 1px solid #ccc;
-	}
-
-	.info {
-		padding-bottom: 2%;
-		border-bottom: 1px solid #ccc;
-	}
-
-	@media screen and (min-width: 600px){
-
-		html{
-			font-size:16px;
-		}
-
 		nav {
-			width:15%;
-			position: fixed;
+			margin: 0 auto;
+			}
+
+		ul {
+			margin: 0;
+			padding: 0;
 		}
 
-		.navigation {
+		.navigation{
+			width:50%;
 		}
 
 		.nav-button {
+			line-height: 120%;
 			z-index: 100;
-			width: 12px;
-			margin-right: 15%;
-			padding: .2%;
-			border: 0;
-			font-size: 1.1em;
-			word-break:break-all;
-			text-transform:uppercase;
+			font-size: 1.5rem;
+			font-weight: 500;
+			}
+
+		.name { 
+			margin-bottom: 2%;
+			padding-bottom: 2%;
+			font-weight: 500;
+			font-style: italic;
+			font-size: 1.8rem;
+		}
+
+		.info {
+			padding-bottom: 2%;
+		}
+
+	/*mobile work page*/
+
+		.container{
+			margin:0 auto;
+			width: 100%;
+			height: 100%;
+		}
+
+		.container h2 {
+			margin: 0 auto;
 			text-align: center;
-			color: #ccc;
 		}
 
-		.nav-button:hover{
-			background-color: black;
-			color: white;
-		}
+	/*work grid*/
 
-		.name {
-			margin-left: 1%;
+		.grid {
+			width:49%;
+			max-height: 180px;
+			overflow: auto;
 			float:left;
+			margin: .2%;
+			display: inline;
 		}
 
-		.work {
-			float:left;
+		.grid img {
+			width: 100%;
 		}
 
-		.contact {
-			float: left;
-		}
+	/*DESKTOP*/
+		@media screen and (min-width: 600px){
 
-		.container {
-			float:left;
-			margin: 0;
-			margin-left: 15%;
-			margin-right: 2%;
-		}
+			html{
+				font-size:16px;
+			}
 
-	}
+			/*nav desktop*/
+
+				nav {
+					width:15%;
+					position: fixed;
+				}
+
+				.navigation {
+					width:100%;
+				}
+
+				.nav-button {
+					width: 12px;
+					padding: .2%;
+					font-size: 1.1em;
+					word-break:break-all;
+					text-align: center;
+					color: #ccc;
+				}
+
+				.nav-button:hover{
+					background-color: black;
+					color: white;
+				}
+
+				.name {
+					margin-left: 1%;
+					float:left;
+				}
+
+				.info{
+					margin-left:15%;
+				}
+
+				.work {
+					float:left;
+				}
+
+				.contact {
+					float: left;
+				}
+
+			/*index*/
+
+				.navigation p{
+					font-size: 1rem;
+					line-height: 100%;
+					font-style: normal;
+					margin-left: 13%;
+				}
+
+			/*content*/
+
+				.container {
+					margin: 0 auto;
+					margin-left: 130px;
+					width:85%;
+					max-width: 1024px;
+				}
+
+			/*nav location color*/
+
+				#work .work {
+					background-color: #ccc;
+					padding:1%;
+				}
+
+				#contact .contact {
+					background-color: #ccc;
+				}
+
+			/*work grid*/
+
+				.grid {
+					margin:0 auto;
+					width:150px;
+					height:200px;
+					max-width: 150px;
+					max-height: 200px;
+					border: none;
+					overflow: auto;
+					float:left;
+					margin:3%;
+					text-align: center;
+				}
+
+				.grid img {
+					margin: 0 auto;
+					height:100%;
+				}
+
+				.grid img:hover {
+				    animation:spin 8s linear infinite;
+					}
+					@keyframes spin { 
+						100% { transform:rotateY(360deg); } 
+				}
+		}
 
 </style>
