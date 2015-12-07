@@ -166,6 +166,22 @@
 
 			}
 
+			#contact .description{
+				margin: 0 auto;
+				top: 10%;
+				left:18%;
+			}
+
+			#work .work {
+				background-color: #ccc;
+				padding:.5%;
+			}
+
+			#contact .contact {
+				background-color: #ccc;
+				padding: .5%;
+			}
+
 	/*DESKTOP*/
 		@media screen and (min-width: 600px){
 
@@ -187,11 +203,11 @@
 
 				.nav-button {
 					width: 12px;
-					padding: .2%;
 					font-size: 1.1em;
 					word-break:break-all;
 					text-align: center;
 					color: #ccc;
+
 				}
 
 				.nav-button:hover{
@@ -205,15 +221,20 @@
 				}
 
 				.info{
-					margin-left:20%;
+					
 				}
 
 				.work {
 					float:left;
+					position: fixed;
+					margin-left: 4%;
 				}
 
 				.contact {
 					float: left;
+					position: fixed;
+					margin-left: 8%;
+
 				}
 
 			/*index*/
@@ -252,12 +273,14 @@
 
 				#work .work {
 					background-color: #ccc;
-					padding:1%;
+					padding:.5%;
+					margin-left: 3.5%;
 				}
 
 				#contact .contact {
 					background-color: #ccc;
-					padding: 1%;
+					padding: .5%;
+					margin-left: 7.5%
 				}
 
 			/*work grid*/
@@ -309,6 +332,12 @@
 
 				.bajacontent img{
 					max-height: 600px
+				}
+			/*contact*/
+				#contact .description{
+					margin: 0 auto;
+					left:11%;
+					top:19.5%;
 				}
 
 		}
