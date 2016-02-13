@@ -143,14 +143,15 @@
 	/*work grid*/
 
 		.grid {
-			width:49%;
-			max-height: 350px;
+			width:47%;
+			max-height: 200px;
 			overflow: auto;
 			float:left;
-			margin: .2%;
+			margin: .2% auto;
 			display: block;
 			margin-bottom: 1%;
 			margin-top: 3%;
+			background:white;
 
 		}
 
