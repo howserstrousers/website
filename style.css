@@ -145,7 +145,7 @@
 		.grid {
 			width:47%;
 			max-height: 210px;
-			overflow: auto;
+			overflow: hidden;
 			float:left;
 			margin: .7% auto;
 			display: block;
@@ -157,6 +157,7 @@
 
 		.grid img {
 			width: 100%;
+			margin: 0 auto;
 		}
 
 	/*conent // actual photos*/
@@ -296,6 +297,7 @@
 				.grid {
 					margin:0 auto;
 					overflow: hidden;
+					max-height: 260px;
 					margin:1%;
 					width:15.5%;
 					float:left;
