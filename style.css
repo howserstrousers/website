@@ -144,7 +144,7 @@
 
 		.grid {
 			width:49%;
-			max-height: 390px;
+			max-height: 350px;
 			overflow: auto;
 			float:left;
 			margin: .2%;
