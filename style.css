@@ -209,6 +209,11 @@
 					
 					max-height: 600px
 				}
+				
+			.cv img{
+				width:100%;
+				background-color: white;
+			}
 
 			
 
