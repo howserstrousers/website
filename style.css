@@ -353,9 +353,10 @@
 
 				.grid {			
 					margin:1%;
-					margin-bottom: 2%;
 					width:14%;
+					min-height: 200px;
 					float:left;
+					display: inline;
 					
 				}
 
