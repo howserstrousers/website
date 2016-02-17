@@ -160,7 +160,6 @@
 
 		.grid {
 			width:47%;
-			max-height: 210px;
 			overflow: hidden;
 			float:left;
 			margin: .7% auto;
@@ -242,6 +241,10 @@
 			a:link {
 				color:black;
 				text-decoration: none
+			}
+
+			.clearfix {
+				overflow: auto;
 			}
 
 			/*nav desktop*/
@@ -331,7 +334,9 @@
 				.container {
 					margin:0 auto;
 					width:90%;
+					max-width: 1366px;
 					overflow: hidden;
+					
 				}
 
 			/*nav location color*/
@@ -346,20 +351,18 @@
 
 			/*work grid*/
 
-				.grid {
-					margin:0 auto;
-					overflow: hidden;
-					max-height: 260px;
+				.grid {			
 					margin:1%;
-					width:15.5%;
+					margin-bottom: 2%;
+					width:14%;
 					float:left;
-					padding:.5%;
+					
 				}
 
 				.grid img {
+					margin:0 auto;
 					width:100%;
-					float:left;
-					padding-bottom: 1.5%;
+					height:100%;
 				}
 
 				.grid img:hover {
