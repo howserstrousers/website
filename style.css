@@ -353,16 +353,7 @@
 
 				.description p{
 				text-decoration: underline;
-					}
-
-				.container {
-					margin:0 auto;
-					width:90%;
-					max-width: 1366px;
-					overflow: hidden;
-					
 				}
-
 			/*nav location color*/
 
 				
@@ -375,22 +366,28 @@
 
 			/*work grid*/
 
+				.container {
+					margin:0 auto;
+					width:90%;
+					max-width: 1200px;
+					overflow: hidden;
+					text-align: center;
+					
+				}
+
 				.grid {			
-					margin:1%;
+					margin:.5%;
 					width:14%;
-					height:14%;
-					min-height: 210px;
+					height:190px;
 					float:left;
 					display: block;
-					padding:0;
-					
+					padding:.5%;
+					overflow:auto;
 				}
 
 				.grid img {
 					margin:0 auto;
 					width:100%;
-					height:100%;
-
 				}
 
 				.grid img:hover {
@@ -452,6 +449,20 @@
 				width:100%;
 			}
 
+		}
+
+		@media screen and (min-width: 1024px){
+
+			.grid{
+				height:225px;
+			}
+		}
+
+		@media screen and (min-width: 1260px){
+
+			.grid{
+				height:245px;
+			}
 		}
 
 </style>
