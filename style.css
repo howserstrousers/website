@@ -124,10 +124,14 @@
 			
 		}
 
+		
+
 		.intro{
 				color:white;
 				margin:0 auto;
 				padding-bottom: 3%;
+				padding-top: 24%;
+				line-height: 1.4rem;
 		}
 
 		.contacts {
