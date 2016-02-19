@@ -125,9 +125,9 @@
 		}
 
 		.intro{
-				line-height: 2rem;
-				padding-top: 24%;
 				color:white;
+				margin:0 auto;
+				padding-bottom: 3%;
 		}
 
 		.contacts {
