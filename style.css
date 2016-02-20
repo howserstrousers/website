@@ -393,7 +393,7 @@
 					height:200px;
 					float:left;
 					padding:.5%;
-					overflow:auto;
+					overflow:hidden;
 					margin-right:7%;
 				}
 
