@@ -390,7 +390,7 @@
 				.grid {			
 					margin:2%;
 					width:14%;
-					height:200px;
+					height:180px;
 					float:left;
 					padding:.5%;
 					overflow:hidden;
@@ -466,15 +466,23 @@
 
 		}
 
+		@media screen and (min-width: 860px){
+			.grid{
+				height:190px;
+				margin-right:7%;
+			}
+
+		}
+
 		@media screen and (min-width: 1024px){
 
 			.grid{
 				height:225px;
-				margin-right:4%;
+				margin-right:7%;
 			}
 
 			.grid img{
-				width:80%;
+				width:100%;
 			}
 
 		}
