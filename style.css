@@ -386,6 +386,7 @@
 				.boxes{
 					width:90%;
 					float:right;
+					margin:0 auto;
 				}
 
 				.grid {			
@@ -395,7 +396,7 @@
 					float:left;
 					padding:.5%;
 					overflow:hidden;
-					margin-right:7%;
+					
 				}
 
 				.grid img {
