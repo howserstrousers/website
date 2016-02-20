@@ -383,6 +383,16 @@
 					margin-left: 8%;
 				}
 
+				.workcontainer {
+					margin:0 auto;
+					width:82%;
+					max-width: 1366px;
+					overflow: hidden;
+					text-align: center;
+					float: left;
+					margin-left: 8%;
+				}
+
 				.boxes{
 					width:90%;
 					float:right;
@@ -396,7 +406,7 @@
 					float:left;
 					padding:.5%;
 					overflow:hidden;
-					
+					margin-right: 8%
 				}
 
 				.grid img {
