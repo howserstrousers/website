@@ -146,7 +146,6 @@
 					bottom:0;
 					right:0;
 					width:15px;
-					color: white;
 
 				}
 
@@ -161,7 +160,6 @@
 			margin: 0 auto;
 			height: 100%;
 			width: 100%;
-			float: right;
 			top-margin:10%;
 		}
 
@@ -194,6 +192,7 @@
 				margin: 0 auto;
 				width:100%;
 				height: 100%;
+				float:left;
 			}
 
 			.content img{
@@ -311,10 +310,14 @@
 					bottom:0;
 					right:0;
 					width:15px;
+					color:black;
 
 				}
 
 				.copyright img{
+					
+					content: url(img/copyright.png);
+					
 					width:100%;
 					height:100%;
 				}
@@ -372,19 +375,23 @@
 
 				.container {
 					margin:0 auto;
-					width:90%;
+					width:100%;
 					max-width: 1200px;
 					overflow: hidden;
 					text-align: center;
 					
 				}
 
+				.boxes{
+					width:90%;
+					float:right;
+				}
+
 				.grid {			
 					margin:.5%;
 					width:14%;
-					height:190px;
+					height:200px;
 					float:left;
-					display: block;
 					padding:.5%;
 					overflow:auto;
 				}
@@ -412,12 +419,14 @@
 					margin: 0 auto;
 					width:100%;
 					height: 100%; 
-					margin-bottom:5%;
+					margin-bottom:2%;
 				}
 
 				.content img{
 					margin:0 auto;
-					width:80%;
+					width:79%;
+					margin-left:6%;
+					float:left;
 				}
 				
 				.bajacontent{
@@ -465,7 +474,7 @@
 		@media screen and (min-width: 1260px){
 
 			.grid{
-				height:245px;
+				height:255px;
 			}
 		}
 
