@@ -127,11 +127,35 @@
 		
 
 		.intro{
+				width:70%;
 				color:white;
 				margin:0 auto;
-				padding-bottom: 3%;
-				padding-top: 24%;
-				line-height: 1.4rem;
+				padding-top: 20%;
+				line-height: 2rem;
+		}
+
+		.skills {
+				width:70%;
+				color:white;
+				margin:0 auto;
+				margin-top: 8%;
+				line-height: 2rem;
+		}
+
+		.skills p{
+			text-decoration: underline;
+		}
+
+		.pro {
+				width:70%;
+				color:white;
+				margin:0 auto;
+				margin-top: 8%;
+				line-height: 2rem;
+		}
+
+		.pro p{
+			text-decoration: underline;
 		}
 
 		.contacts {
@@ -161,6 +185,10 @@
 			height: 100%;
 			width: 100%;
 			top-margin:10%;
+		}
+
+		.cv {
+			width:100%;
 		}
 
 	/*work grid*/
@@ -230,6 +258,12 @@
 				background-color: white;
 			}
 
+	@media screen and (min-width: 570px){
+		.intro{
+			padding-top: 15%;
+		}
+
+	}
 			
 
 	/*DESKTOP*/
@@ -326,11 +360,36 @@
 				.intro{
 					margin:0 auto;
 					left:15%;
-					line-height: 1rem;
+					line-height: 1.5rem;
 					color:black;
 					font-size: .9rem;
 					padding-top:.3%;
 					margin-left: 12%;
+				}
+
+				.skills {
+					color:black;
+					margin:0 auto;
+					margin-top: 5%;
+					line-height: 1.5rem;
+					margin-bottom: 5%;
+					font-size: .9rem;
+				}
+
+				.skills p{
+					text-decoration: underline;
+				}
+
+				.pro {
+					width:70%;
+					color:black;
+					margin:0 auto;
+					margin-top: 8%;
+					line-height: 2rem;
+				}
+
+				.pro p{
+					text-decoration: underline;
 				}
 
 				.contacts {
@@ -483,7 +542,7 @@
 				margin-right:7%;
 			}
 
-		}
+
 
 		@media screen and (min-width: 1024px){
 
