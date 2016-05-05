@@ -258,6 +258,16 @@
 				background-color: white;
 			}
 
+			.dropper p{
+				font-style: italic;
+			}
+
+			.dropper p:hover {
+				font-style: normal;
+			}
+
+
+
 			.about{
 				margin:0 auto;
 				margin-top:15%;
