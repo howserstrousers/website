@@ -270,15 +270,16 @@
 
 			.about{
 				margin:0 auto;
-				margin-top:15%;
+				margin-top:25%;
 				width:90%;
-				display: none;
+				margin-bottom: 5%;
 			}
 
 			.about p{
 				text-align: left;
 				color:white;
 				line-height: 1.2rem;
+				margin-bottom: 5%;
 			}
 
 			.dropper{
