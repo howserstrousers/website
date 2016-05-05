@@ -300,6 +300,28 @@
 				margin: 0 auto;
 			}
 
+			.outside{
+				width:75%;
+				margin:0 auto;
+				text-align: center
+			}
+
+			.outside video{
+				width:100%;
+				margin: 0 auto;
+			}
+
+			.random{
+				width:75%;
+				margin:0 auto;
+				text-align: center
+			}
+
+			.random video{
+				width:100%;
+				margin: 0 auto;
+			}
+
 
 
 	@media screen and (min-width: 570px){
