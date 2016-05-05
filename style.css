@@ -299,10 +299,15 @@
 				line-height:1.5rem;
 			}
 
-			.inside{
-				width:75%;
+			.gifs{
 				margin:0 auto;
-				text-align: center
+			}
+
+			.inside{
+				width:85%;
+				margin:0 auto;
+				text-align: center;
+				margin-bottom:10%;
 			}
 
 			.inside video{
@@ -311,9 +316,10 @@
 			}
 
 			.outside{
-				width:75%;
+				width:85%;
 				margin:0 auto;
-				text-align: center
+				text-align: center;
+				margin-bottom:10%;
 			}
 
 			.outside video{
@@ -322,9 +328,10 @@
 			}
 
 			.random{
-				width:75%;
+				width:85%;
 				margin:0 auto;
-				text-align: center
+				text-align: center;
+				margin-bottom:10%;
 			}
 
 			.random video{
@@ -654,8 +661,10 @@
 			}
 
 			.inside{
-				width:40%;
+				width:28%;
 				margin: 0 auto;
+				float:left;
+				margin: 2%;
 			}
 
 			.inside video{
@@ -663,8 +672,10 @@
 			}
 
 			.outside{
-				width:40%;
+				width:28%;
 				margin: 0 auto;
+				float:left;
+				margin: 2%;
 			}
 
 			.outside video{
@@ -672,8 +683,10 @@
 			}
 
 			.random{
-				width:40%;
+				width:28%;
 				margin: 0 auto;
+				float:left;
+				margin: 2%;
 			}
 
 			.random video{
