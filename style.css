@@ -258,6 +258,50 @@
 				background-color: white;
 			}
 
+			.about{
+				margin:0 auto;
+				margin-top:15%;
+				width:90%;
+				
+			}
+
+			.about p{
+				text-align: left;
+				color:white;
+				line-height: 1.2rem;
+			}
+
+			.about h3{
+				color:white;
+				margin-top: 10%;
+				text-align: center;
+			}
+
+			.dropper{
+				margin: 0 auto;
+				cursor: pointer;
+				color:white;
+				margin-left:auto;
+				text-align: center;
+				margin-top:20%;
+				font-size: 1.4rem;
+				text-decoration: underline;
+				line-height:1.5rem;
+			}
+
+			.inside{
+				width:75%;
+				margin:0 auto;
+				text-align: center
+			}
+
+			.inside video{
+				width:100%;
+				margin: 0 auto;
+			}
+
+
+
 	@media screen and (min-width: 570px){
 		.intro{
 			padding-top: 15%;
@@ -530,6 +574,28 @@
 				width:100%;
 			}
 
+			.about{
+				margin-top: 5%;
+
+			}
+
+			.about p{
+				font-size: .8rem;
+				color:black;
+			}
+
+			.about h3{
+				margin-top: 10%;
+				font-size: .8rem;
+			}
+
+			.dropper{
+				color:black;
+				font-size: 1.1rem;
+				margin-top: 10%;
+				width:auto;
+			}
+
 		}
 
 		@media screen and (min-width: 860px){
@@ -548,6 +614,37 @@
 			}
 
 			.grid img{
+				width:100%;
+			}
+
+			.about{
+				display: none
+			}
+
+			.inside{
+				width:40%;
+				margin: 0 auto;
+			}
+
+			.inside video{
+				width:100%;
+			}
+
+			.outside{
+				width:40%;
+				margin: 0 auto;
+			}
+
+			.outside video{
+				width:100%;
+			}
+
+			.random{
+				width:40%;
+				margin: 0 auto;
+			}
+
+			.random video{
 				width:100%;
 			}
 
