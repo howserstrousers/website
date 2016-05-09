@@ -1,9 +1,5 @@
 $(document).ready(function(){
 
-	$(".atoggle").click(function(){
-        $(".about").toggle();
-    });
-
     $(".indrop").click(function(){
         $(".ipics").toggle();
     });
