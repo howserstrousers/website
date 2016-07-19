@@ -187,8 +187,18 @@
 			top-margin:10%;
 		}
 
+		#cv {
+			background-color: white
+		}
+
 		.cv {
 			width:100%;
+			max-width: 600px;
+			background-color: white;
+		}
+
+		.back{
+			display: none;
 		}
 
 	/*work grid*/
@@ -252,6 +262,7 @@
 			.cv img{
 				width:100%;
 				background-color: white;
+
 			}
 
 			div .grid .escape{
@@ -473,8 +484,6 @@
 			.description ul{
 				color:white;
 			}
-
-
 
 	@media screen and (min-width: 570px){
 		.intro{
@@ -746,6 +755,10 @@
 			#cv img{
 				margin: 0 auto;
 				width:100%;
+			}
+
+			.back{
+			display: block;
 			}
 
 			.about{
