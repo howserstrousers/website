@@ -1,65 +1,62 @@
-<!doctype html>
+<!DOCTYPE HTML>
 <html>
 <head>
-	<meta charset="UTF-8">
-	
-	
-	
-	<!-- TITLE -->
-	<title>Thesis</title>
-	
-	<!-- STYLES -->
-	<link rel="stylesheet" type="text/css" href="style.css">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
 
-	<!-- google font -->
-	<link href='https://fonts.googleapis.com/css?family=Roboto+Mono:400,500italic,500,700' rel='stylesheet' type='text/css'>
+	<!-- CSS -->
+		<link rel="stylesheet" type="text/css" href="css/styles.css">
 
-	<!-- JQUERY -->
-	<script src="js/jquery.1.11.1.min.js"></script>
-	
+	<!-- GOOGLE FONT -->
+		<link href='https://fonts.googleapis.com/css?family=Roboto+Mono:400,500italic,500,700' rel='stylesheet' type='text/css'>
+
+	<!-- JQUERY PLUG -->
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js">
+		</script>
+
+	<!-- PARALLAX -->
+		<script src="js/jquery.parallax.js"></script>
+
 	<!-- CUSTOM SCRIPTS -->
-	<script src="js/scripts.js"></script>
+		<script src="js/scripts.js"></script>
+	</head>
 
-	<script>
-	  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-	  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-	  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-	  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+<body id="thesis">
 
-	  ga('create', 'UA-73980998-1', 'auto');
-	  ga('send', 'pageview');
-
-	</script>
-	
-	
-	
-</head>
-
-
-	<body id="thesis">
-
-	<div class="navigation">
-	<nav class="clearfix">
-		<ul>
-			<li class="nav-button name">
-				<a href="index.html">FRITZ <br> HOWSER </a>
-			</li>
-			<li class="nav-button work info">
-				<a href="work.html"> Work </a>
-			</li>	
-		</ul>
-	</nav>
+	<div class="name type">
+			<a href="index.html">
+			<p>Fritz Howser</p>
+			</a>
+	</div>
+	<div class="navigation clearfix">
+			<nav class="clearfix">
+				<ul>	
+					<li class="nav-button nav-buttonspace work info type">
+						<a href="work.html"> Work </a>
+					</li>
+					<li class="nav-button nav-buttonspace work info type">
+						<a href="about.html"> About </a>
+					</li>
+					<li class="nav-button work info type">
+						<a href="contact.html"> Contact </a>
+					</li>	
+				</ul>
+			</nav>
 	</div>
 
-	<div class="copyright">
-			<img src="img/copyright.png">
-		</div>
-
 	<div class="container clearfix">
+		<div class="description">
+				<p class="title">
+				SENIOR THESIS PROJECT
+				</p>
+				
+			</div>
+		<div class="statement">
+			<p>CLICK TO SEE FULL STATEMENT</p>
+		</div>
 		
 		<div class="about">	
 			<p>
-				SAFE SPACE is a study of my taste examined through the exploration of new mediums. It is a process centric investigation of content. It takes into careful consideration the value of visual comparisons and their points of contest.
+				My senior thesis is a study of my taste examined through the exploration of new mediums. It is a process centric investigation of content. It takes into careful consideration the value of visual comparisons and their points of contest.
 				<br>
 				<br>
 				The exploration in new mediums began with furthering my web design skills through implementation of JQuery and Javascript, in addition to furthering existing knowledge of css and html. Learning and implementing the features of javascript at a fairly technical level through the development of the user interface (UI) solidified my ability to apply these new skills. Applying my formal training and understanding of publication design, I developed the UI to create a dynamic spacial layout between photo collections to change the viewer’s experience while they interact. The user is able to manipulate the website, forming their own ideas via sliders, buttons, and hidden objects. In addition to exploring experimental on-screen mediums, I implemented motion design skills learned throughout the past year. Each slider has a gif that serves to highlight a topic-specific summary. I developed a vertical motion sequence to visualize my process throughout this project, focusing on content collections and thesis research texts. The vertical orientation of this video is designed to accommodate mobile platforms. 
@@ -79,20 +76,16 @@
 					VIEW THE SITE <span>HERE!</span>
 				</a>
 			</p>
-			<p class="disclaimer">
-				*Mobile Version is currently under construction, for best results view website on a desktop.
-			<p>
 		</div>
-
-	<div class="gifs">
-
-		<p class="gifdrop">CLICK ANIMATIONS TO EXPAND STILL PHOTOS</p>
+		
+		<div class="gifs">
 
 		<div class="inside">
-
+			<div class="expand indrop">
+				<p> SEE INSIDE </p>
+			</div>
 			<div class="indrop">
 			<video autoplay loop>
-
 				<source src="img/thesis/inside_s.mov">
 			</video>
 			</div>
@@ -110,11 +103,14 @@
 		</div>
 
 		<div class="outside">
+			<div class="expand outdrop">
+				<p> EXHIBITION INSTALLATION </p>
+			</div>
 			<div class="outdrop">
 			<video autoplay loop>
 				<source src="img/thesis/outside_s.mov">
 			</video>
-		</div>
+			</div>
 			<div class="opics">
 				<img src="img/thesis/outside_00.jpg">
 				<img src="img/thesis/outside_01.jpg">
@@ -124,13 +120,18 @@
 				
 			</div>
 		</div>
-
+<!--random-->
 		<div class="random">
+			
+			<div class="expand rdrop">
+				<p> ADDITIONAL PHOTOS </p>
+			</div>
+			
 			<div class="rdrop">
 			<video autoplay loop>
 				<source src="img/thesis/random_s.mov">
 			</video>
-		</div>
+			</div>
 
 			<div class="rpics">
 				<img src="img/thesis/random_00.jpg">
@@ -142,8 +143,8 @@
 			</div>
 		</div>
 	</div>
-
-	<div class="motion">
+<!--video-->
+	<div class="video">
 
 		<p>Supplemental Motion Design for Exhibition Space</p>
 
@@ -151,19 +152,9 @@
 
 			<iframe src="https://player.vimeo.com/video/165087740" width="400" height="711" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 	</div>
+</div>
 
 
-		
-		
-			<div class="description">
-				<p>
-					<a href="thesis.html">SAFE SPACE</a>
-				</p>
-				
-			</div>
-	</div>
-
-	</body>
-
+</body>
 
 </html>
