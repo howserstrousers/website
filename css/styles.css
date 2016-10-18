@@ -200,6 +200,11 @@
 			height:70%;
 		}
 
+		#project6 img{
+			margin:0 auto;
+			width:50%;
+		}
+
 		#work .copyright{
 			bottom:0;
 			right:0;
@@ -547,9 +552,7 @@
 		}
 
 		#project6 img{
-
 			width:50%;
-			height:50%;
 		}
 
 		.list{
