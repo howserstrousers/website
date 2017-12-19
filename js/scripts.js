@@ -7,6 +7,7 @@ $(document).ready(function() {
 
 	$('.work_container').slick({
 		arrows:false,
+		adaptiveHeight:true,
 	});
 
 	$('.left').click(function(){
