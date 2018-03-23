@@ -158,6 +158,7 @@ p{
     margin:0 auto;
     width: 100%;
     text-align: center;
+    margin-top:.5%;
     margin-bottom:5%;
     position: absolute;
     z-index: 1000;
